@@ -1,0 +1,97 @@
+body
+{
+	background: #e7ebf0;
+}
+
+.conteiner
+{
+	background-color: white;
+	width: 60vw;
+  	height: 97vh;
+  	margin-left: 20%;
+  	margin-right: 20%;
+}
+
+/*to-bar*/
+
+.top-bar
+{
+	position: fixed; /* Фиксированное положение */
+	background-color: rgb(86, 130, 163);;
+	width: 60%;
+	height: 50px;
+	padding: 0;
+	display: inline-block;
+}
+
+.top-bar > div
+{
+	float: left;
+	border: 1px solid black;
+}
+
+.top-bar > div:hover
+{
+	background-color:#3a6d99;
+}
+
+.logo-button
+{
+	height:100%;
+	width: 30%;
+}
+
+.logo-button:hover .first
+{
+	transform: translateY(-1px);
+}
+
+.logo-button:hover .third
+{
+	transform: translateY(1px);
+}
+
+.three-button
+{
+	margin:10px;
+	height: 30px;
+	width: 30px;
+	padding: 5px;
+	float: left;
+}
+
+.three-button > div
+{
+	background-color:white;
+	margin: 4px;
+	height: 2px;
+	width: 18px;
+}
+
+.logo
+{
+	float: left;
+	margin:13px;
+	height: 30px;
+	width: 30px;
+	color: white;
+}
+
+.user-button
+{
+	height:100%;
+	width: 60%;
+}
+
+.search
+{
+	height:100%;
+	width: 5%;
+	color: white;
+}
+
+.settings
+{
+	height:100%;
+	width: 5%;
+}
