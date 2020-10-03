@@ -27,12 +27,12 @@ body
 .top-bar > div
 {
 	float: left;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 
 .top-bar > div:hover
 {
-	background-color:#3a6d99;
+	background-color:#497799;
 }
 
 .logo-button
@@ -80,18 +80,137 @@ body
 .user-button
 {
 	height:100%;
-	width: 60%;
+	width: 54%;
+
+	color: white;
+	padding:13px;
+}
+
+.user-button:hover .top-online
+{
+	color: white;
+}
+
+.top-online
+{
+	color: #afcfd9;
 }
 
 .search
 {
 	height:100%;
-	width: 5%;
+	width: 54px;
 	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .settings
 {
 	height:100%;
-	width: 5%;
+	width: 54px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
+
+/*
+content*/
+
+.content
+{
+	padding-top: 50px;
+	width: 100%;
+	height: 100%;
+	/*border: 1px solid black;*/
+	display: inline-block;
+}
+
+/*contacts*/
+
+.contacts
+{
+	float: left;
+	/*border: 1px solid black;*/
+	height:100%;
+	width: 30%;
+}
+
+.contacts_scroll
+{
+    /*border: 1px solid black;*/
+    overflow: auto;
+    width: 100%;
+    height: 93%;
+}
+
+.search-field
+{
+	width: 100%;
+	height:7%;
+	padding: 10px;
+}
+
+.pole
+{
+	width: 100%;
+	height: 100%;
+	padding: 5px;
+	background-color: #f2f2f2;
+	color: #bdbdbd;
+}
+
+.contact
+{
+	width: 100%;
+	height: 8%;
+    padding: 2px;
+    /*border: 1px solid black;*/
+}
+
+.contact:hover
+{
+    background-color: #f2f6fa;
+}
+
+.pole-contact
+{
+	margin: 5px 10px;
+	position: relative;
+}
+
+.time_online
+{
+	position: absolute; /* блок занимает ширину содержимого, max-width её ограничивает */
+	top: 0; /* прикрепить к верху родителя */
+	right: 0;
+	font-size: 11px;
+}
+
+.hue
+{
+	margin-left: 10px;
+	float: left;
+}
+
+.user_name
+{
+
+}
+
+.last_message
+{
+	color: #868686;
+}
+/*chat*/
+
+.chat
+{
+	float: left;
+	border: 1px solid black;
+	height:100%;
+	width: 70%;
+}
+
